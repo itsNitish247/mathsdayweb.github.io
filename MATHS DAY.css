@@ -1,10 +1,8 @@
 body{
-  height: 50%;
-  background: url("https://c.wallhere.com/photos/13/94/science_pattern_golden_ratio_mathematics_minimalism_Fibonacci_sequence_blue_background_square-1365111.jpg!d");
-  position:  center;
+  height: 30%;
+  background: url("https://cdn.hipwallpaper.com/i/69/95/VsQRz6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
   margin: auto;
 }
 
@@ -33,36 +31,6 @@ body{
   }
 
 
-  .party-logo {
-    width: 50%;
-    margin-left: 4rem;
-    margin-top: 1.5rem;
-  }
-
-  .design-logo {
-    width: 11%;
-    margin-left: 2rem;
-  }
-
-  
-
-
-h1{
-  font-style: cursive;
-}
-
-
-
-
-  .main-body{ 
-    background-image: url( "");
-    background-size: cover;
-    margin-bottom: auto;
-    margin: 0%;
-    position:  center;
-    background-repeat: no-repeat;
-    
-  }
   
   .Circle-Logo  {
     display:block;
@@ -71,21 +39,10 @@ h1{
     width: 40%;
   }
 
-  .centered {
+  
+  .activity2{
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: cursive;
-    color:yellow;    
-text-shadow: 4px 0 black;
-letter-spacing:2px;
-font-weight: 500; 
-  }
-
-  .activity {
-    position: absolute;
-    top: 70%;
+    bottom: 70%;
     right: 75%;
     transform: translate(-50%, -50%);
     font-family: 'Lucida Sans';
@@ -96,36 +53,51 @@ font-weight: 600;
   }
 
   
-  .activity2 {
-    position: absolute;
-    top: 70%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-    font-family: 'Lucida Sans';
-    color:white;    
-text-shadow: 5px 0 black;
-letter-spacing:4px;
-font-weight: 600; 
-  }
-
-
+  
 
   h1{
     text-align: center;
-    font-style: oblique;
-    color:whitesmoke;
-     font-weight :1000;
+    font-style: bold;
+    color:yellow;
+     font-weight :80;
      text-shadow: black;
      letter-spacing: inherit;
-     height: 20px;
-
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     height: 10px;
+  }
+   
+  h2{
+    text-align: center;
+    font-style: initial;
+    color:orangered;
+     font-weight :80;
+     text-shadow: black;
+     letter-spacing: inherit;
+     font-family:cursive;
+     height: 10px;
   }
 
-h3{
+
+
+  h3{
+    text-align: center;
+    font-style: initial;
+    color:peru;
+     font-weight :80;
+     text-shadow: black;
+     letter-spacing: inherit;
+     font-family:cursive;
+     height: 10px;
+  }
+
+
+  
+
+h4{
   text-align: left;
     font-style: italic;
     color:whitesmoke;
-     font-weight :1000;
+     font-weight :100;
      text-shadow: black;
      letter-spacing: inherit;
      height: 20px
@@ -141,7 +113,7 @@ p{
    height: 20px;
 }
 
- p1{
+p1{
   text-align: center;
   font-style: italic;
   color:white;
@@ -153,8 +125,9 @@ p{
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    font: size 200;
+    font-size: 130%;
   }
+
   a:link, a:visited {
     color: white;
     padding: 15px 25px;
@@ -163,30 +136,21 @@ p{
     display: inline-block;
   }
 
-  .btn{
-    position: relative;
-    background-color:yellow green;
-    padding: 2rem;
-    border: none;
-    border-radius: 10px;
-  margin-left: 550px;
-
+  .register {
+    margin-top:1rem;
+    margin-bottom: 3rem;
+    font-family: serif;
+   padding:2rem;
+    font-size: 2rem;
+    margin-left: 520px;
+  }
+  
+  .register:hover {
+    background-color: #ffc85c;
   }
   
 
-  .activity3{
-    position: absolute;
-    top: 70%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-    font-family: 'Lucida Sans';
-    color:white;    
-text-shadow: 5px 0 black;
-letter-spacing:4px;
-font-weight: 600; 
-  }
 
-  
   
   
 
