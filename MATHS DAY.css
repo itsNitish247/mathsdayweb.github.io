@@ -143,19 +143,6 @@ p1{
     background-color:rgb(172, 79, 17);
   }
 
-  @media screen and(max-width: 767px) {
-    .register {
-      margin-top:1rem;
-      margin-bottom: 3rem;
-      font-family: serif;
-     padding:5rem;
-      font-size: 2rem;
-      margin-left: 300px;
-      border-radius: 50%; 
-      width: 700px;
-      height:200px;
-    }
-  }
  
 
   
