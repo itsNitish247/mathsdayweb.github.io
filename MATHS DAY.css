@@ -135,7 +135,7 @@ p1{
       font-family: serif;
      padding:5rem;
       font-size: 2rem;
-      margin-left:40%;
+      margin-left:90%;
       border-radius: 50%; 
       width: 500px;
       height:200px;
@@ -154,9 +154,9 @@ p1{
       font-family: serif;
      padding:5rem;
       font-size: 2rem;
-      margin-left:40%;
+      margin-left:20%;
       border-radius: 50%; 
-      width: 500px;
+      width: 600px;
       height:200px;
       position:center;
     }
