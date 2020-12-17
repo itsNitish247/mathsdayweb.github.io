@@ -147,20 +147,19 @@ p1{
     }
   
 
-  @media screen and(max-width: 780px) {
-    .register {
-      margin-top: 3rem;
+  @media screen and(max-width: 767px) {
+     .register {
+      margin-top:1rem;
       margin-bottom: 3rem;
       font-family: serif;
-      padding: 2.5rem 7rem 2.5rem 7rem;
+     padding:5rem;
       font-size: 2rem;
+      margin-left:80%;
+      border-radius: 50%; 
+      width: 400px;
+      height:200px;
+      position:center;
     }
-    
-    .register:hover {
-      background-color: #ffc85c;
-    }
-    
-   
   }
  
 
