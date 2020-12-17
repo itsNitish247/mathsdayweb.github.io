@@ -1,4 +1,4 @@
- body{
+body{
   height: 30%;
   background: url("https://cdn.hipwallpaper.com/i/69/95/VsQRz6.jpg");
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ font-weight: 600;
     font-style: bold;
     color:yellow;
      font-weight :100;
-     text-shadow: black;
+     text-shadow:white;
      letter-spacing: inherit;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      height: 10px;
@@ -69,8 +69,8 @@ font-weight: 600;
   h2{
     text-align: center;
     font-style: initial;
-    color:orangered;
-     font-weight :100;
+    color:red;
+     font-weight :200;
      text-shadow: black;
      letter-spacing: inherit;
      font-family:cursive;
@@ -82,7 +82,7 @@ font-weight: 600;
   h3{
     text-align: center;
     font-style: initial;
-    color:peru;
+    color:orangered;
      font-weight :80;
      text-shadow: black;
      letter-spacing: inherit;
@@ -101,7 +101,7 @@ p{
    font-weight :1000;
    text-shadow: black;
    height: 20px;
-   font-size: 190%;
+   font-size: 230%;
 }
 
 p1{
@@ -116,7 +116,7 @@ p1{
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    font-size: 190%;
+    font-size: 200%;
   }
 
   a:link, a:visited {
@@ -131,18 +131,31 @@ p1{
     margin-top:1rem;
     margin-bottom: 3rem;
     font-family: serif;
-   padding:3rem;
+   padding:5rem;
     font-size: 2rem;
-    margin-left: 420px;
+    margin-left: 300px;
     border-radius: 50%; 
-    width: 70%;
-    height: 200%;
+    width: 700px;
+    height:200px;
   }
   
   .register:hover {
     background-color:rgb(172, 79, 17);
   }
-  
+
+  @media screen and(max-width: 767px) {
+    .register {
+      margin-top:1rem;
+      margin-bottom: 3rem;
+      font-family: serif;
+     padding:5rem;
+      font-size: 2rem;
+      margin-left: 300px;
+      border-radius: 50%; 
+      width: 700px;
+      height:200px;
+    }
+  }
  
 
   
